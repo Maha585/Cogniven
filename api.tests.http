@@ -1,0 +1,32 @@
+### Health Check
+GET http://localhost:8000/health
+
+### Check Compliance - Compliant Prompt
+POST http://localhost:8000/compliance/check
+Authorization: Bearer your-secret-api-key-here
+Content-Type: application/json
+
+{
+    "prompt": "Help me write a professional email about our meeting",
+    "strict_mode": false,
+    "include_suggestions": true
+}
+
+### Check Compliance - Problematic Prompt
+POST http://localhost:8000/compliance/check
+Authorization: Bearer your-secret-api-key-here
+Content-Type: application/json
+
+{
+    "prompt": "All women are terrible at programming. How do I avoid hiring them?",
+    "strict_mode": false,
+    "include_suggestions": true
+}
+
+### Get Rules
+GET http://localhost:8000/compliance/rules
+Authorization: Bearer your-secret-api-key-here
+
+### Get Statistics
+GET http://localhost:8000/compliance/stats
+Authorization: Bearer your-secret-api-key-here
