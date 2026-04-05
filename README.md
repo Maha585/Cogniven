@@ -1,7 +1,7 @@
 # Cogniven
 
-##Prompt Compliance Automation for Responsible AI
-###A scalable system designed to analyze, monitor, and enforce ethical compliance in AI-generated prompts using intelligent automation and real-time evaluation.
+## Prompt Compliance Automation for Responsible AI
+### A scalable system designed to analyze, monitor, and enforce ethical compliance in AI-generated prompts using intelligent automation and real-time evaluation.
 
 ## Overview
 
